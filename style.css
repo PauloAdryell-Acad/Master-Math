@@ -1,0 +1,110 @@
+body{
+  background-color: #676B91;
+  background-image: url(fundo1.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#main{
+  display: flex;
+  flex-wrap: wrap;
+  width: 120%;
+  height: 600px;
+  margin: 0% 5%;
+}
+
+.modo{
+  position:relative;
+  display: flex;
+  background: blue;
+  color: white;
+  font-style: bold;
+  font-size: 80%;
+  flex-basis: 26%;
+  padding: 1%;
+  border-radius: 50%;
+  border-top-left-radius: 100%;
+  text-align: center;
+  margin: 2%;
+  align-items: center;
+  justify-content: center;
+  border: 3px black solid;
+}
+
+.modo:hover{
+  background: gray;
+  opacity: 0.8;
+}
+
+#painel{
+  display: flex;
+  justify-content: space-around;
+  background: #070B2E;
+  height: 300px;
+  flex-wrap: wrap;
+  width: 120%;
+  padding: 10px;
+}
+
+.number{
+  flex-basis: 30%;
+  margin: 1%;
+  font-size: 50px;
+  font-family: fantasy;
+  background: white;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+}
+
+#altA, #altB{
+  border-radius: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(fogo.gif);
+  background-size: cover;
+}
+
+#altA:hover, #altB:hover{
+  cursor: pointer;
+  background-color: #949BE3;
+  opacity: 0.7;
+}
+
+#placar{
+  margin: 20% 5%;
+  width: 120%;
+  height: 300px;
+  background: #070B2E;
+  color: white;
+  outline-style: solid;
+  outline-color: black;
+  display: flex;
+  font-size: 30px;
+  padding: 3%;
+  flex-wrap: wrap;
+}
+
+.pt{
+  flex-basis: 31%;
+  margin: 1%;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#placar:hover{
+  background: darkcyan;
+}
